@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stlib.h>
+#include "main.h"
 
 /**
  * main - This is to print using printchar
@@ -11,5 +10,5 @@ int main(void)
 {
 	_putchar("Print Nicely"\n)
 
-	return (0)
+	return (0);
 }
