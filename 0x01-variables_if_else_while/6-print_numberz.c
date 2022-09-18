@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Print all single digit numbers using only putchar
+ * main - Prints all single ditit numbers of base 10 staring from 0 using only putchar
  *
- * Return: Always 0 
+ * Return: Always 0
  */
 int main(void)
 {
@@ -14,5 +14,5 @@ int main(void)
 
 	putchar('\n');
 
-	return (0)
+	return (0);
 }
