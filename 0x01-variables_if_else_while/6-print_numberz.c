@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Prints all single ditit numbers of base 10 staring from 0 using only putchar
+ * main - Prints all single ditit numbers of base 10,
+ * staring from 0 using only putchar
  *
  * Return: Always 0
  */
