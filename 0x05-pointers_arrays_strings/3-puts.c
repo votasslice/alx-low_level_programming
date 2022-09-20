@@ -2,20 +2,23 @@
 
 /**
  * _puts - prints string
- * @str: string
+ * @str:input string.
  *
- * Return: void
+ * Return: no return.
  */
 
 void _puts(char *str)
 {
 	int i = 0;
 
-	while (str[i] != '\0')
+	while (count >=0)
 	{
-		_putchar(str[i]);
-		i++;
+		if (str[count] == '\0')
+		{
+			_putchar('\n');
+			break;
+		}
+		_putchar(str[count]);
+		count++;
 	}
-
-	_putchar('\n');
 }
